@@ -1,0 +1,113 @@
+body {
+    background-color: white;
+    font-family: 'Arvo', serif;
+    position: relative;
+    margin: 0;
+    padding-top: 5px;
+}
+.header{
+    height: 40px;
+    width: 70%;
+    margin: auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.header-page{
+    padding-top: 2px;
+    text-align: center;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.header-page > h2 {
+    margin: auto;
+}
+.header-nav{
+    width: 50%;
+    float: left;
+}
+.header-nav > button{
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    background-color: white;
+    outline:none;
+    cursor: pointer;
+}
+
+.header-nav > button:hover{
+    background-color: whitesmoke;
+    transition: all 1s ease 0s;
+}
+.header-nav > button + button {
+    margin-left: 10px;
+}
+.nav{
+    width: 25%;
+    float: left;
+    border-right: 2px solid black;
+    margin-top: 10px;
+}
+.list{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.document{
+    padding-left: 10px;
+    cursor: pointer;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+.fragNav{
+    padding-left: 20px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    cursor: pointer;
+}
+.listParagraph{
+    margin-top: 10px;
+    width: 74%;
+    float: left;
+}
+.popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.popup .popup-content{
+    margin:40px auto 0px auto;
+    width:300px;
+    height: 120px;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+.paragraph{
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: no-drop;
+}
+
+#new_paragraph, #save{
+    opacity: 0.5;
+}
